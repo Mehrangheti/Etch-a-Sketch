@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+  }
+
+  body{
+    background-color: rgb(248, 216, 221);
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  canvas {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    
+  }
+  h1{
+    color: rgb(251, 169, 182);
+  }
+  label{
+    color: rgb(251, 169, 182);
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  input{
+    width: 30px;
+    margin-right: 20px;
+  }
+  
+  .eraser,
+  .brush,
+  .clear,
+  #resize
+   {
+   background-color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 5px;
+    color:  rgb(244, 172, 183);
+  }
+  .active{
+    background-color: rgb(244, 172, 183);
+    color: white;
+  }
+  
